@@ -54,12 +54,25 @@ class HelloWorld {
 	 * @return - int
 	 */
 	private int getStdId() {
-		int x = 100; // local variable
+		/*int x = 100; // local variable
 		System.out.println(age);
 		System.out.print(stdId);
-		System.out.println(name);
+		System.out.println(name); */
 		return stdId;
 	}
+	
+	void setName(String n) {
+		this.name = n;
+	}
+	
+	void setAge(int age) {
+		this.age = age;
+	}
+	
+	void setStdId(int id) {
+		this.stdId = id;
+	}
+	
 
 }
 
